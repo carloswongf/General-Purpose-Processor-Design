@@ -11,7 +11,7 @@ END latch2;
 ARCHITECTURE Behavior OF latch1 Is
 BEGIN 
 	PROCESS (Resetn, Clock)
-	BEGIN	IF
+	BEGIN
 		IF Resetm = '0' THEM
 			Q <= "00000000";
 		ELSIF Clock'EVENT AND Clock = '1' THEN
