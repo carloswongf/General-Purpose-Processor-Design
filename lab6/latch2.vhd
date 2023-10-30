@@ -1,12 +1,12 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY latch1 IS
+ENTITY latch2 IS
 	PORT (A					:	IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 			Resetm,CLock 	: 	IN STD_LOGIC;
 			Q					: OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
 			
-END latch1;
+END latch2;
 
 ARCHITECTURE Behavior OF latch1 Is
 BEGIN 
